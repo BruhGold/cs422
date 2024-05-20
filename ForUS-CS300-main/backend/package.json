@@ -4,7 +4,7 @@
     "start": "node server.js",
     "start_nodemon": "nodemon server.js"
   },
-  "description": "A 5-member project for CS300 Software Engineering.",
+  "description": "A 3-member project for CS422 SAD.",
   "version": "1.0.0",
   "main": "server.js",
   "author": "",
