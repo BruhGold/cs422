@@ -1,0 +1,47 @@
+{
+  "name": "forus-backend",
+  "scripts": {
+    "start": "node server.js",
+    "start_nodemon": "nodemon server.js"
+  },
+  "description": "A 5-member project for CS300 Software Engineering.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.4",
+    "express-session": "^1.17.3",
+    "googleapis": "^105.0.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.2",
+    "slugify": "^1.6.6",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4",
+    "sanitize-html": "2.11.0",
+    "html-entities": "2.4.0",
+    "firebase": "^10.7.1",
+    "sharp": "0.33.1",
+    "striptags": "3.2.0"
+  },
+  "engines": {
+    "node": "14.17.0"
+  }
+}

@@ -1,0 +1,34 @@
+.bg-card-primary {
+    background: #1D76C6;
+}
+
+.bg-card-secondary {
+    background: #162B40;
+}
+
+.round-left {
+    border-radius: 16px 0 0 16px;
+}
+
+.round-right {
+    border-radius: 0 16px 16px 0;
+}
+
+.user-link {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.user-link:hover {
+    color: var(--bs-white);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991.5px) {
+    .bg-card-primary {
+        border-radius: 0 0 16px 16px;
+    }
+    .bg-card-secondary {
+        border-radius: 16px 16px 0 0;
+    }
+}

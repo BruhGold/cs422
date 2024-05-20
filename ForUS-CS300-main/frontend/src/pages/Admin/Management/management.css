@@ -1,0 +1,67 @@
+td {
+  text-align: center;
+}
+
+.avatar-cell {
+  width: 1%; /* Set a small width to allow the content to determine the width */
+  white-space: nowrap; /* Prevent the cell from expanding */
+}
+
+.avatar-img {
+  height: 100%;
+  width: auto; /* or set a specific width */
+  max-height: 40px; /* Adjust the maximum width as needed */
+  max-width: 40px;
+}
+.custom-btn-yellow {
+  background-color: yellow;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.custom-btn-green {
+  background-color: green;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.custom-btn-red {
+  background-color: red;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.custom-btn-blue {
+  background-color: blue;
+  color: black;
+  transition: background-color 0.3s;
+}
+.custom-btn-blue {
+  background-color: rgb(0, 194, 253);
+  color: black;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.custom-btn-yellow:hover {
+  background-color: #ff9100; /* Adjust the color for hover */
+}
+
+.custom-btn-green:hover {
+  background-color: #4caf50; /* Adjust the color for hover */
+}
+
+.custom-btn-red:hover {
+  background-color: #920707; /* Adjust the color for hover */
+}
+
+.custom-btn-blue:hover {
+  background-color: #3c53e7; /* Adjust the color for hover */
+}
+.table td.available {
+  color: rgba(12, 139, 9, 0.911);
+}
+
+.table td.banned {
+  color: red;
+}
