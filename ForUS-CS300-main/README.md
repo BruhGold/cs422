@@ -10,5 +10,5 @@ Run `npm run sync` to prepare the NPM installation for everything
 * **`npm run deploy`:** Run both processes above
 
 # Devices
-Works on phone with prevent cross-site tracking off
-Works normally on web
+* Works on phone with prevent cross-site tracking off
+* Works normally on web
