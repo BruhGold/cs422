@@ -8,3 +8,7 @@ Run `npm run sync` to prepare the NPM installation for everything
 * **`npm run backend`:** Run the backend process
 * **`npm run frontend`:** Run the frontend process
 * **`npm run deploy`:** Run both processes above
+
+# Devices
+Works on phone with prevent cross-site tracking off
+Works normally on web
