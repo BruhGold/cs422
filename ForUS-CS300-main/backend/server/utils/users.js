@@ -17,6 +17,7 @@ module.exports = {
     let data;
     console.log("Finding user by id");
     try {
+      cosole.log(req.cookies.token);
       data = tokenGen.decodeToken(req.cookies.token);
     } catch (e) {
       console.log("error:", e);
