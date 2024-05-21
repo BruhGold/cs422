@@ -1,11 +1,7 @@
-import { Link, Navigate, useNavigate } from "react-router-dom";
 import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
-import { useEffect, useReducer, useState } from "react";
+import { useState } from "react";
 import { login } from "../../api/user";
-import { setCookie } from "../../utils/setCookie";
 import axios from "axios";
-import Logo from "../../components/icons/logo";
-import logo from "../../assets/icons/logo.png";
 
 export default function Login() {
   // const navigate = useNavigate();

@@ -1,8 +1,4 @@
-import { Link, Navigate, Outlet, useNavigate } from "react-router-dom";
-import { useEffect, useReducer, useState } from "react";
-import { setCookie } from "../../utils/setCookie";
-import axios from "axios";
-import Logo from "../../components/icons/logo";
+import { Navigate, Outlet } from "react-router-dom";
 import logo from "../../assets/icons/logo.png";
 import "./login.css";
 
