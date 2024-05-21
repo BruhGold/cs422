@@ -19,10 +19,10 @@ module.exports = {
     try {
       data = tokenGen.decodeToken(req.cookies.token);
     } catch (e) {
-      console.log(e);
+      console.log("error:", e);
       return null;
     }
-    console.log(data);
+    console.log("data:", data);
 
     if (data == null) return null;
     console.log("Finding user by id");
