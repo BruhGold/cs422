@@ -27,6 +27,8 @@ module.exports = function (app) {
 			if (user == null) denied = true;
 		}
 
+		console.log("Denied: ", req.url, denied);
+
 		if (denied) {
 			res.status(403).json({
 				error: "Access denied!."

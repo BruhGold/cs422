@@ -40,9 +40,6 @@ app.use(xss());
 var allowedOrigins = [
   'http://localhost:3000',
   'https://cs422.onrender.com',
-  'https://cs422.onrender.com/18.142.128.26',
-  'https://cs422.onrender.com/13.228.225.19',
-  'https://cs422.onrender.com/54.254.162.138',
   'https://cs422-041s.onrender.com',
 ];
 
