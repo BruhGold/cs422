@@ -22,7 +22,7 @@ module.exports = function (app) {
 		if (isPath(req.url, "/users/login") || isPath(req.url, "/users/forgot-password") || isPath(req.url, "/users/reset-password")) denied = false;
 		else {
 			console.log('check user exist')
-			console.log(req.body)
+			console.log(req.cookies.token)
 			let user = await users.findUserById(req, true);
 			if (user == null) denied = true;
 		}

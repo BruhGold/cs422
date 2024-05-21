@@ -28,7 +28,7 @@ const loginUser = async (req, res, next) => {
     const token = await userUtil.getToken(user);
     res.cookie("token", token, {
       httpOnly: true,
-      secure: false,
+      secure: true,
     });
     res.status(200).json({
       message: "Login successfully.",
