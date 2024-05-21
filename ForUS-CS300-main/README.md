@@ -1,5 +1,5 @@
-# ForUS - CS300
-A 5-member project for CS300 Software Engineering.
+# ForUS - CS422
+A 5-member project for CS422.
 
 ## Running
 ### Before starting
